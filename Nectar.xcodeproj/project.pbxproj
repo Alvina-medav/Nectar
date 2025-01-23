@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF219E462D425C7D004909F4 /* NectarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF219E452D425C7D004909F4 /* NectarApp.swift */; };
+		AF219E482D425C7D004909F4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF219E472D425C7D004909F4 /* WelcomeView.swift */; };
+		AF219E4A2D425C7E004909F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF219E492D425C7E004909F4 /* Assets.xcassets */; };
+		AF219E4D2D425C7E004909F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF219E4C2D425C7E004909F4 /* Preview Assets.xcassets */; };
+		AF219EA12D4262FE004909F4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF219EA02D4262FE004909F4 /* Launch Screen.storyboard */; };
+		AF3C82E42D426F7F00A07B32 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82E32D426F7F00A07B32 /* UIKitExtension.swift */; };
+		AF3C82E72D426FF100A07B32 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82E62D426FF100A07B32 /* UIExtension.swift */; };
+		AF3C82E92D4276DA00A07B32 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82E82D4276DA00A07B32 /* SignInView.swift */; };
+		AF3C82EC2D4277CB00A07B32 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = AF3C82EB2D4277CB00A07B32 /* iPhoneNumberField */; };
+		AF3C82EE2D42801B00A07B32 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82ED2D42801B00A07B32 /* Country.swift */; };
+		AF3C82F02D42802C00A07B32 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82EF2D42802C00A07B32 /* CountryPickerView.swift */; };
+		AF3C82F22D4281D000A07B32 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C82F12D4281CF00A07B32 /* SearchTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1C168C2D4268CB00EEBD06 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		AF1C168D2D4268E300EEBD06 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		AF1C168E2D4268F000EEBD06 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		AF1C168F2D4269C000EEBD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF219E422D425C7D004909F4 /* Nectar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nectar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF219E452D425C7D004909F4 /* NectarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NectarApp.swift; sourceTree = "<group>"; };
+		AF219E472D425C7D004909F4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AF219E492D425C7E004909F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF219E4C2D425C7E004909F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF219EA02D4262FE004909F4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AF3C82E32D426F7F00A07B32 /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		AF3C82E62D426FF100A07B32 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		AF3C82E82D4276DA00A07B32 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		AF3C82ED2D42801B00A07B32 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AF3C82EF2D42802C00A07B32 /* CountryPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		AF3C82F12D4281CF00A07B32 /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF219E3F2D425C7D004909F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3C82EC2D4277CB00A07B32 /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1C168B2D42687C00EEBD06 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C168C2D4268CB00EEBD06 /* Gilroy-Bold.ttf */,
+				AF1C168D2D4268E300EEBD06 /* Gilroy-Regular.ttf */,
+				AF1C168E2D4268F000EEBD06 /* Gilroy-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AF1C16902D426AD600EEBD06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF219E472D425C7D004909F4 /* WelcomeView.swift */,
+				AF3C82E82D4276DA00A07B32 /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF219E392D425C7D004909F4 = {
+			isa = PBXGroup;
+			children = (
+				AF219E442D425C7D004909F4 /* Nectar */,
+				AF219E432D425C7D004909F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF219E432D425C7D004909F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF219E422D425C7D004909F4 /* Nectar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF219E442D425C7D004909F4 /* Nectar */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C82E22D426F5900A07B32 /* Common */,
+				AF1C16902D426AD600EEBD06 /* View */,
+				AF3C82E52D426FD200A07B32 /* UICommon */,
+				AF1C168F2D4269C000EEBD06 /* Info.plist */,
+				AF1C168B2D42687C00EEBD06 /* Fonts */,
+				AF219E492D425C7E004909F4 /* Assets.xcassets */,
+				AF219EA02D4262FE004909F4 /* Launch Screen.storyboard */,
+				AF219E452D425C7D004909F4 /* NectarApp.swift */,
+				AF219E4B2D425C7E004909F4 /* Preview Content */,
+			);
+			path = Nectar;
+			sourceTree = "<group>";
+		};
+		AF219E4B2D425C7E004909F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF219E4C2D425C7E004909F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF3C82E22D426F5900A07B32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C82E32D426F7F00A07B32 /* UIKitExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AF3C82E52D426FD200A07B32 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C82E62D426FF100A07B32 /* UIExtension.swift */,
+				AF3C82ED2D42801B00A07B32 /* Country.swift */,
+				AF3C82EF2D42802C00A07B32 /* CountryPickerView.swift */,
+				AF3C82F12D4281CF00A07B32 /* SearchTextField.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF219E412D425C7D004909F4 /* Nectar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF219E502D425C7E004909F4 /* Build configuration list for PBXNativeTarget "Nectar" */;
+			buildPhases = (
+				AF219E3E2D425C7D004909F4 /* Sources */,
+				AF219E3F2D425C7D004909F4 /* Frameworks */,
+				AF219E402D425C7D004909F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nectar;
+			packageProductDependencies = (
+				AF3C82EB2D4277CB00A07B32 /* iPhoneNumberField */,
+			);
+			productName = Nectar;
+			productReference = AF219E422D425C7D004909F4 /* Nectar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF219E3A2D425C7D004909F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AF219E412D425C7D004909F4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AF219E3D2D425C7D004909F4 /* Build configuration list for PBXProject "Nectar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF219E392D425C7D004909F4;
+			packageReferences = (
+				AF3C82EA2D4277CB00A07B32 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = AF219E432D425C7D004909F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF219E412D425C7D004909F4 /* Nectar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF219E402D425C7D004909F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF219EA12D4262FE004909F4 /* Launch Screen.storyboard in Resources */,
+				AF219E4D2D425C7E004909F4 /* Preview Assets.xcassets in Resources */,
+				AF219E4A2D425C7E004909F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF219E3E2D425C7D004909F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3C82F02D42802C00A07B32 /* CountryPickerView.swift in Sources */,
+				AF3C82E42D426F7F00A07B32 /* UIKitExtension.swift in Sources */,
+				AF219E482D425C7D004909F4 /* WelcomeView.swift in Sources */,
+				AF219E462D425C7D004909F4 /* NectarApp.swift in Sources */,
+				AF3C82E72D426FF100A07B32 /* UIExtension.swift in Sources */,
+				AF3C82EE2D42801B00A07B32 /* Country.swift in Sources */,
+				AF3C82E92D4276DA00A07B32 /* SignInView.swift in Sources */,
+				AF3C82F22D4281D000A07B32 /* SearchTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF219E4E2D425C7E004909F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF219E4F2D425C7E004909F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF219E512D425C7E004909F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nectar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nectar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvina.Nectar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF219E522D425C7E004909F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nectar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nectar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvina.Nectar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF219E3D2D425C7D004909F4 /* Build configuration list for PBXProject "Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF219E4E2D425C7E004909F4 /* Debug */,
+				AF219E4F2D425C7E004909F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF219E502D425C7E004909F4 /* Build configuration list for PBXNativeTarget "Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF219E512D425C7E004909F4 /* Debug */,
+				AF219E522D425C7E004909F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF3C82EA2D4277CB00A07B32 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF3C82EB2D4277CB00A07B32 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF3C82EA2D4277CB00A07B32 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF219E3A2D425C7D004909F4 /* Project object */;
+}
