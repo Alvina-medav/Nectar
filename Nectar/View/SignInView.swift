@@ -1,10 +1,3 @@
-//
-//  SignInView.swift
-//  Nectar
-//
-//  Created by students on 3/11/46.
-//
-
 import SwiftUI
 import iPhoneNumberField
 
@@ -16,31 +9,30 @@ struct SignInView: View {
     @State private var showCountryPicker = false
     
     var body: some View {
-        NavigationStack{
-            ZStack{
-                Image("bottom_bg")
+        
+        ZStack{
+            Image("bottom_bg")
+                .resizable()
+                .scaledToFill()
+                .frame(width: .screenWidth, height: .screenWidth)
+            
+            VStack{
+                Image("sign_in_top")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: .screenWidth, height: .screenHeight)
-                
-                
+                    .frame(width: .screenWidth, height: .screenWidth)
+                Spacer()
+            }
+            
+            ScrollView{
                 VStack{
-                    Image("sign_in_top")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: .screenWidth, height: .screenWidth)
-//                    Spacer()
-                    
-                    Text("Get your groceries\n with nectar")
-                        .font(.customfont(.semibold, fontSize: 18))
+                    Text("Get your groceries \nwith nectar")
+                        .font(.customfont(.semibold, fontSize: 26))
                         .foregroundColor(.primaryText)
                         .multilineTextAlignment(.leading)
-                    //                      .padding(.bottom,140)
-                    //                        .padding(.top, 110)
-                    
-                    
-                    
-                    Spacer()
+                        .padding(.top, 350)
+                        .padding(.trailing, 130)
+                        .padding(.bottom, 25)
                     
                     HStack(spacing: 12) {
                         Button(action: {
@@ -53,7 +45,7 @@ struct SignInView: View {
                                     .font(.system(size: 18))
                                     .foregroundColor(.black)
                             }
-//                            .frame(width: 100)
+                            .frame(width: 100)
                             .padding(.leading, -20)
                         }
                         .sheet(isPresented: $showCountryPicker) {
@@ -70,55 +62,94 @@ struct SignInView: View {
                             .font(UIFont(size: 16, weight: .regular))
                     }
                     .padding(.horizontal, 24)
-                    .padding(.bottom,300)
+                    
                     Rectangle()
-                                           .frame(height: 1)
-                                           .foregroundColor(.gray.opacity(0.3))
-                                           .padding(.horizontal, 30)
-                                           .padding(.bottom, 25)
+                        .frame(height: 1)
+                        .foregroundColor(.gray.opacity(0.3))
+                        .padding(.horizontal, 30)
+                        .padding(.bottom, 25)
                     
-                    NavigationLink{
-                                               //
-                                           } label: {
-                                               Text("Continue with SignIn")
-                                                   .font(.customfont(.semibold, fontSize: 18))
-                                                   .foregroundColor(.white)
-                                                   .multilineTextAlignment(.center)
-                                                   .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
-                                                   .background(Color(hex: "5383EC"))
-                                                   .cornerRadius(20)
-                                           }
-                                           .padding(.horizontal, 20)
-                                           
-                                           
-                                           NavigationLink{
-                                               //
-                                           } label: {
-                                               Text("Continue with SignUp")
-                                                   .font(.customfont(.semibold, fontSize: 18))
-                                                   .foregroundColor(.white)
-                                                   .multilineTextAlignment(.center)
-                                                   .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
-                                                   .background(Color.primaryApp)
-                                                   .cornerRadius(20)
-                                           }
-                                           
-                                           .padding(.horizontal, 20)
+                    NavigationLink {
+                      //  LoginView()
+                    } label: {
+                        Text("Continue with SignIn")
+                            .font(.customfont(.semibold, fontSize: 18))
+                            .foregroundColor(.white)
+                            .multilineTextAlignment(.center)
+                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
+                            .background(Color(hex: "5383EC"))
+                            .cornerRadius(20)
+                    }
+                    
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 5)
                     
                     
+                    NavigationLink {
+                     //   SignUpView()
+                    } label: {
+                        Text("Continue with SignUp")
+                            .font(.customfont(.semibold, fontSize: 18))
+                            .foregroundColor(.white)
+                            .multilineTextAlignment(.center)
+                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
+                            .background(Color.primaryApp)
+                            .cornerRadius(20)
+                    }
+                    
+                    .padding(.horizontal, 20)
+                    
+                    Divider()
+                        .frame(width: 415)
                     
                     
+                    
+                    VStack{
+                        
+                        Text("or connnect with social media")
+                            .font(.customfont(.semibold, fontSize: 16))
+                            .foregroundColor(.textTitle)
+                            .multilineTextAlignment(.center)
+                            .padding(.top, 30)
+                            .padding(.bottom, 15)
+                        
+                        HStack{
+                            
+                            Image("google")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                                .padding(.trailing,5)
+                            Image("facebook")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                                .padding(.trailing,5)
+                            Image("apple_logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 42, height: 42)
+                        }
+                    }
                 }
-                
+                .padding(.top, 50)
             }
-            .ignoresSafeArea()
-            .navigationBarHidden(true)
-            .navigationTitle("")
-            .navigationBarBackButtonHidden(true)
+            
+            
+          //  .padding(.top, 0)
+            .padding(.horizontal, 20)
+            
         }
+        
+        .navigationTitle("")
+        .ignoresSafeArea()
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 #Preview {
-    SignInView()
+    NavigationStack {
+        SignInView()
+    }
 }
