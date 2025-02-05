@@ -24,13 +24,13 @@ struct WelcomeView: View {
                        
                     
                     Text("welcome\n to our store")
-                        .font(.gilroy(.semibold, size: 48))
+                        .font(.gilroy(.bold, size: 48))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
                     
                     Text("Get your groceries in as fast as one hour")
                         .foregroundColor(Color.white.opacity(0.7))
-                        .font(.gilroy(.medium, size: 18))
+                        .font(.gilroy(.semibold, size: 18))
                         .multilineTextAlignment(.center)
                         .padding(.top,-2)
                 }
@@ -38,7 +38,7 @@ struct WelcomeView: View {
                 
                 VStack{
                     NavigationLink{
-                        SignInView()
+                        LogInView()
                     } label: {
                         Text("Get Started")
                             .font(.gilroy(.semibold, size: 18))
@@ -47,8 +47,6 @@ struct WelcomeView: View {
                             .frame(minWidth: 0, maxWidth: .infinity,minHeight: 60, maxHeight: 60)
                             .background(Color(hex: "53B175"))
                             .cornerRadius(20)
-                        
-                            
                     }
                     .padding(.horizontal,20)
                    
